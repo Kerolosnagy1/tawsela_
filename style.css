@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* start header */
+ header{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(230, 240, 213);
+  
+}
+header .nav-head{
+    width: 25%;
+    margin-left: 100px;
+   padding-top: 15px;
+}
+header .nav-head h2:hover{
+    color: crimson;
+    cursor: pointer;
+}
+header .nav-links{
+    width: 25%;
+   padding-top: 15px;
+}
+header .nav-links ul {
+    list-style: none; 
+}
+header .nav-links ul li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+header .nav-links ul li a:hover{
+    color: crimson
+}
+
+header .nav-links ul li{
+    display: inline;
+}
+/* end header */
+
+/* start home */
+#Home{
+    background-image: url(../eco-friendly-food-packaging-delivery-concept.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+
+}
+#Home p {
+  padding-left: 80px;
+  padding-top: 90px;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.font{
+    font-size: 55px !important;
+}
+.font-center{
+   padding-left:150px !important;
+}
+/* end home */
+
+/* start about */
+#About{
+    margin-top: 85px;
+    background-color: aquamarine;
+}
+#About h1{
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 40px;
+    color:darkslategray
+}
+#About .about{
+display: flex; 
+justify-content:space-around;
+align-items: center;
+
+}
+#About .image{
+margin-right: 50px;
+}
+#About .image img{
+    border-radius: 100px;
+    width:650px;
+}
+#About .about-content h2{
+    color:darkslategray;
+    font-size: 28px;
+    
+}
+#About .about-content p{
+    font-size: 23px;
+
+}
+#Products img {
+    padding-top: 120px;
+    width: 50%;
+}
+#Register{
+    padding-top: 50px;
+    font-size: 22px;
+    margin-right: 50px;
+    background-color: salmon;
+}
+
+.input_field input{
+    width: 50%;
+}
+.input_field{
+
+    text-align: center;
+}
+.input_field    select_option{
+width: 100px;
+}
+/*end about*/
